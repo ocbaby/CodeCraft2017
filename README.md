@@ -10,12 +10,12 @@
 
 ---
 ## Function of files:
-    >short.m : Find the shortest path.
-    >MCF.m : Find the minimized-cost flow.
-    >construct.m : Set super nodes and format the matrixes.
-    >cvt.m : Convert the result, a flow matrix, to official format.
-    >climb.m : Recursively sparsify the flow matrix into routes.
-    >cdn.m : The iterator.(Some strategies may under discussion.)
-    >run.m : Execute.
-    >test1.mat : Test case.
-    >README.md : The file you're reading.
+> run.m : Execute.
+>> cdn.m : The iterator.(Some strategies may under discussion.)
+>>> construct.m : Set super nodes and format the matrixes.
+>>> MCF.m : Find the minimized-cost flow.
+>>>> short.m : Find the shortest path.
+>>> cvt.m : Convert the result, a flow matrix, to official format.
+>>>> climb.m : Recursively sparsify the flow matrix into routes.
+> test1.mat : Test case.
+> README.md : The file you're reading.
