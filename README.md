@@ -5,7 +5,7 @@ Put files under current folder.
 Directly run the file run in matlab.
 You will be responsed with a result after every iteration.
 
-Function of files:
+Function of files:\n
 short.m		Find the shortest path.
 MCF.m		Find the minimized-cost flow.
 construct.m	Set super nodes and format the matrixes.
