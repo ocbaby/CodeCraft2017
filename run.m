@@ -1,4 +1,5 @@
 clear;clc 
-load('test1.mat')
-F=cdn( W,C,consumer,need,price );
+%load('test1.mat')
+inp;
+[F cost]=cdn( W,C,consumer,need,price );
 [result flow] =cvt(F)

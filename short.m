@@ -13,7 +13,7 @@ for m=1:n
    end
 end
 a=S(1,n);  C=zeros(1,n);  C(1)=1;  j=1;
-while a~=n    j=j+1; C(j)=a;  a=S(a,n);    end
+while a~=n&&j<n    j=j+1; C(j)=a;  a=S(a,n);    end
 j=j+1; C(j)=n;
 
 y=C; 

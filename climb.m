@@ -39,11 +39,16 @@ for i=1:length(F(:,1))
             end
             
             F(i,node)=F(i,node)-req;
+            req=0;
         end
     end
 end
 if req>0
-    result=[1 node];
+    if node~=1
+        result=[1 node];
+    else
+        result=1;
+    end
     flow=req;
 end
 

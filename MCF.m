@@ -37,6 +37,8 @@ while Vf~=V0
    Vf=sum(f(1,:)); %V(f)
    NW=ones(n)*inf;   NC=zeros(n); 
 
+   if Vf<0 ;
+   end
 end
 
 %input('the mim-cost flow is:')
